@@ -1,0 +1,601 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+ul li a:active{
+    color: rgb(187, 55, 143);
+}
+ul li section{
+    background-color: rgb(39, 128, 128);
+}
+html{
+    scroll-behavior: smooth;
+}
+.header{
+    position: fixed;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(133, 75, 75);
+
+}
+nav{
+    width: 100%;
+    height: 100vh;
+    background-image: url(images/p1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header h1{
+ margin-left: 30px;
+    font-size: 20px;
+    margin-bottom: 400px;
+   
+}
+.item2 h6{
+    font-size: 17px;
+    transition-property: fontsize color;
+    transition-duration: 0.5s;
+}
+.item2 h6:hover{
+ font-size: 40px;
+ font-weight: bold;
+ color: rgb(231, 20, 13);
+}
+.drop{
+    display: none;
+}
+.header ul li:hover .drop{
+    display:inline-block;
+    position: absolute;
+
+}
+.drop ul li a{
+   
+    font-size: 80px;
+    color: rgb(248, 183, 6);
+    display:block;
+}
+ul li a:hover{
+color: blue;
+}
+h1:hover{
+    color: rgb(255, 196, 0);
+    }
+.icon:hover{
+    color: rgb(0, 255, 85);
+    }
+ul li{
+    display: inline-block;
+
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px;
+    color:wheat;
+}
+.icon{
+    margin-right: 30px;
+font-size: 20px;
+padding: 6px 10px;
+}
+span{
+    color: rgb(16, 240, 46);
+}
+.main1{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+
+}
+.main1 img{
+    width: 400px;
+    height: 300px;
+    margin-top: 50px;
+    margin-left: 20px;
+    border-radius: 40px;
+}
+
+.mgt1:hover{
+  
+    transform: scale( 2);
+}
+.mgt2:hover{
+  
+    transform: scale( 2);
+}
+.mgt3:hover{
+  
+    transform: scale( 2);
+}
+.mgt{
+   
+    display: grid;
+    grid-template-columns:  200px 200px 200px;
+    gap: 40px;
+    justify-content: center;
+    
+    
+}
+h5{
+    font-size: 50px;
+    text-align: center;
+    justify-content: center;
+}
+.yee{
+    color: #fff8f8;
+}
+.info img{
+    width: 100px;
+    height: 100px;
+
+}
+.span{
+    color: black;
+}
+ .mgt img{
+    border-radius: 400px;
+    margin-top: 30px;
+   height: 200px;
+    width: 100%;
+ }
+
+
+.mgt h5{
+    margin-top: 30px;
+    color: brown;
+    width: 100%;
+    font-size: 20px; 
+}
+.title{
+    margin-top: 120px;
+
+}
+.title p{
+    margin-top: 20px;
+    color: rgb(255, 240, 240);
+    font-size: 70px;
+    text-shadow: 2px 1px rgb(126, 189, 9);
+
+    
+}
+.title h2{
+    margin-left: 40px;
+    color: rgb(206, 88, 88);
+    font-size: 40px;
+}
+
+.title button{
+    border: none;
+    border-radius: 30px;
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+    color:black;
+    
+    font-size: 20px;
+}
+
+.grid{
+    background-color: gray;
+}
+.grid h5{
+    font-size: 30px;
+    text-align: center;
+}
+.item{
+    background-color:rgb(252, 252, 252);
+}
+.grid-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+}
+.item img{
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+    width: 100%;
+    height: 250px;
+}
+.price{
+    font-size: 20px;
+    display: flex;
+}
+.price h6 {
+    margin-top: 10px;
+    margin-left: 10px;
+   color: rgb(32, 46, 167);
+    font-size: 25px;
+}
+.price button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: rgb(252, 233, 233);
+}
+.grid1{
+    background-color: rgb(133, 118, 118);
+}
+.grid1 h5{
+    font-size: 30px;
+    text-align: center;
+}
+.item2{
+    background-color:rgb(243, 237, 237);
+}
+.grid-container{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 16px;
+    grid-template-columns: 300px 300px 300px ;
+    justify-content: center;
+}
+.item2 img{
+    width: 100%;
+    height: 250px;
+}
+.item2 p{
+    margin-left: 20px;
+    font-size: 20px;
+}
+.price2{
+    font-size: 20px;
+    display: flex;
+}
+.price2 h6 {
+    margin-top: 10px;
+    margin-left: 20px;
+   color: rgb(89, 90, 56);
+    font-size: 25px;
+}
+.price2 button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 25px;
+    background-color: rgb(133, 75, 75);
+}
+.rate{
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 400px 400px 400px ;
+    justify-content: center;
+}
+.part1{
+    box-shadow: 2px 3px 2px rgb(35, 37, 35);
+
+    border: 4px solid;
+    background-color:white;
+}
+.profile img{
+border-radius: 120px;
+height: 100px;
+width: 100px;
+}
+h1{
+    margin-top: 20px;
+    font-size: 20px;
+}
+.star{
+    color: green;
+}
+.profile{
+    
+    display: flex;
+    
+}
+.staf{
+    font-size: 20px;
+    margin-top: 50px;
+    margin-left: 40px;
+    color: rgb(31, 31, 34);
+}
+
+.about-title h5{
+margin: 15px;
+font-size: 60px;
+text-align: center;
+color: aqua;
+}
+.about-title p{
+    margin-top: 10px;
+    margin-left: 30px;
+ 
+    }
+.about{
+    display: flex;
+    text-align: center;
+    gap: 16px;
+}
+
+.about img{
+margin-top: 20px;
+ width: 30%;
+ height: 300px;
+   
+}
+.min{
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+footer{
+    
+    font-size: 50px;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-image: url(image/sha.jpg); */
+    padding: 60px 60px;
+}
+
+.min p{
+    font-size: 50px;
+    color: rgb(12, 11, 11);
+}
+.min button{
+    background-color: rgb(21, 20, 22);
+    color: rgb(226, 220, 220);
+    border-radius: 10px;
+    border: none;
+    font-size: 35px;
+    margin-left: 60px;
+
+}
+.cpy{
+    text-align: center;
+    background-color: blue;
+}
+.cpy h1{
+    font-size: 90px;
+}
+.tijabo{
+    text-align: center;
+}
+.tijabo h1{
+    font-size: 30px;
+    color: green;
+}
+.tijabo p{
+    font-size: 20px;
+}
+footer {
+   
+    bottom: 0;
+}
+
+
+
+.footer-distributed {
+    background-color: #2d2a30;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    font: bold 16px sans-serif;
+    padding: 50px 50px 60px 50px;
+    margin-top: 80px;
+}
+
+.footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+    display: inline-block;
+    vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left {
+    width: 30%;
+}
+
+.footer-distributed h3 {
+    color: #ffffff;
+    font: normal 36px 'Cookie', cursive;
+    margin: 0;
+}
+
+.footer-distributed h3 span {
+    color: #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links {
+    color: #ffffff;
+    margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a {
+    display: inline-block;
+    line-height: 1.8;
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer-distributed .footer-company-name {
+    color: #8f9296;
+    font-size: 14px;
+    font-weight: normal;
+    margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center {
+    width: 35%;
+}
+
+.footer-distributed .footer-center i {
+    background-color: #33383b;
+    color: #ffffff;
+    font-size: 25px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 42px;
+    margin: 10px 15px;
+    vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope {
+    font-size: 17px;
+    line-height: 38px;
+}
+
+.footer-distributed .footer-center p {
+    display: inline-block;
+    color: #ffffff;
+    vertical-align: middle;
+    margin: 0;
+}
+
+.footer-distributed .footer-center p span {
+    display: block;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 2;
+}
+
+.footer-distributed .footer-center p a {
+    color: #e0ac1c;
+    text-decoration: none;
+    ;
+}
+
+/* Footer Right */
+
+.footer-distributed .footer-right {
+    width: 30%;
+}
+
+.footer-distributed .footer-company-about {
+    line-height: 20px;
+    color: #92999f;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 0;
+}
+
+.footer-distributed .footer-company-about span {
+    display: block;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons {
+    margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    background-color: #454849;
+    border-radius: 2px;
+    font-size: 20px;
+    color: #fff8f8;
+    text-align: center;
+    line-height: 35px;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.footer-distributed .footer-icons a:hover {
+    background-color: #3F71EA;
+}
+
+.footer-links a:hover {
+    color: #3F71EA;
+}
+
+
+
+
+
+
+@media  screen and (max-width:600px) {
+    header{
+      padding-bottom: 20px;
+      width: 100%;
+    }
+    ul li{
+        font-size: 10px;
+        background-color: blue;
+    }
+    header ul{
+        display: block;
+        width: fit-content;
+        margin: 80px auto 0 auto;
+        text-align: left;
+        
+    }
+    .header h1{
+        font-size: 20px;
+        padding-bottom: 400px;
+       
+    }
+    title button{
+        font-size: 10px;
+    }
+    .icon{
+        display: none;
+    }
+    .grid-container{
+    display: grid;
+    grid-template-columns: 300px;
+    width: 100%;
+    }
+    .grid h5{
+        font-size: 18px;
+        text-align: left;
+    }
+   
+    .rate{
+       
+        display: grid;
+        width: 100%;
+        grid-template-columns: 400px  ;
+       
+    }
+    .about p{
+      
+        font-size: 20px;
+    }
+    .about{
+        display: inline;
+        font-size: 20px;
+    }
+    .mgt{
+    
+        display: grid;
+        grid-template-columns:  200px ;
+    
+    }
+   
+    .footer-distributed .footer-left, .footer-distributed .footer-center, .footer-distributed .footer-right {
+        display: block;
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+    }
+    .footer-distributed .footer-center i {
+        margin-left: 0;
+    }
+    footer {
+        position: static;
+    }
+}
