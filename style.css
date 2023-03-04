@@ -190,6 +190,14 @@ h5{
 .item{
     background-color:rgb(252, 252, 252);
 }
+.item:hover{
+    border: 3px solid rgb(134, 24, 24);
+    box-shadow: 2px 4px;
+}
+.item2:hover{
+    border: 3px solid black;
+    box-shadow: 2px 4px;
+}
 .grid-container{
     margin-top: 20px;
     padding-bottom: 20px;
@@ -527,29 +535,57 @@ footer {
 
 
 
-@media  screen and (max-width:600px) {
+@media  screen  and (max-width:600px) {
     header{
+        position: absolute;
       padding-bottom: 20px;
-      width: 100%;
+      width: 40%;
+      background-image: none;
     }
-    ul li{
+    ul li a{
         font-size: 10px;
-        background-color: blue;
+        align-items: flex-start;
+       
     }
-    header ul{
-        display: block;
-        width: fit-content;
-        margin: 80px auto 0 auto;
-        text-align: left;
+    .nav ul li {
+        
+       display: inline;
+        margin-right: auto;
         
     }
     .header h1{
-        font-size: 20px;
-        padding-bottom: 400px;
-       
+        display: none;
+        /* color: white;
+        font-size: 6px;
+        padding-bottom: 400%;
+        */
     }
-    title button{
-        font-size: 10px;
+    .main1{
+        padding: 20px;
+        display: flex;
+        justify-content: left;
+    
+    }
+    .main1 img{
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        margin-left: 20px;
+        border-radius: 40px;
+    }
+    .title{
+        text-align: center;
+    }
+    .title h2{
+        color: rgb(255, 254, 254);
+    }
+    .title p{
+        color: white;
+        font-size: 23px;
+    }
+    .title button{
+        width: 120px;
+        font-size: 20px;
     }
     .icon{
         display: none;
@@ -568,16 +604,20 @@ footer {
        
         display: grid;
         width: 100%;
-        grid-template-columns: 400px  ;
+        grid-template-columns: 300px  ;
        
     }
     .about p{
       
-        font-size: 20px;
+        font-size: 10px;
     }
     .about{
         display: inline;
         font-size: 20px;
+    }
+    .about img{
+        margin-left: 100px;
+        width: 300px;
     }
     .mgt{
     
